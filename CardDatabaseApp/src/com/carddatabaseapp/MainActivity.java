@@ -1,4 +1,6 @@
-package com.example.carddatabaseapp;
+package com.carddatabaseapp;
+
+import com.example.carddatabaseapp.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -18,5 +20,3 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
-}
