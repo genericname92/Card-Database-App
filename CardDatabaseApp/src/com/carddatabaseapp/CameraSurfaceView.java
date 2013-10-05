@@ -26,11 +26,6 @@ class CameraSurfaceView extends SurfaceView implements SurfaceHolder.Callback
 	@Override
 	public void surfaceChanged(SurfaceHolder holder, int format, int width, int height)
 	{
-
-		// The default orientation is landscape, so for a portrait app like this
-		// one we need to rotate the view 90 degrees.
-		camera.setDisplayOrientation(90);
-
 		// IMPORTANT: We must call startPreview() on the camera before we take
 		// any pictures
 		camera.startPreview();
